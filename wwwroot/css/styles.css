@@ -1,0 +1,40 @@
+.book-card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.book-card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.book-cover {
+    height: 200px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+#galleryView .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#galleryView .card-text {
+    flex-grow: 1;
+}
+
+.table-row-clickable:hover {
+    cursor: pointer;
+    background-color: #f8f9fa !important;
+}
+
+.modal-cover {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+#loadingSpinner {
+    height: 100px;
+}
